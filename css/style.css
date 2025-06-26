@@ -107,10 +107,12 @@ img {
     align-items: center;
 }
 
-.navbar .logo {
-    font-size: 1.8em;
-    font-weight: bold;
-    color: var(--text-light);
+./* Styling for the image logo inside the navbar */
+.navbar .logo img.navbar-logo {
+    height: 40px; /* **INI PENTING: Sesuaikan tinggi logo Anda di sini** */
+    width: auto; /* Mempertahankan rasio aspek agar tidak pecah */
+    display: block; /* Penting untuk kontrol tata letak gambar */
+    max-width: 100%; /* Memastikan logo tidak melebihi lebar kontainer parent */
 }
 
 .navbar .nav-links {
