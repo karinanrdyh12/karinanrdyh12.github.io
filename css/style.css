@@ -107,7 +107,17 @@ img {
     align-items: center;
 }
 
-./* Styling for the image logo inside the navbar */
+.navbar .logo {
+    /* Hapus atau komentari ini jika Anda tidak ingin teks logo muncul sebagai fallback */
+    /* font-size: 1.8em; */
+    /* font-weight: bold; */
+    color: var(--text-light); /* Biarkan ini untuk warna teks fallback */
+
+    /* PASTIKAN TIDAK ADA padding: 800px; atau sejenisnya di sini! */
+    /* Jika Anda menemukan padding di sini, hapus! */
+    padding: 0; /* Atau Anda bisa pastikan tidak ada aturan padding lain */
+}
+
 .navbar .logo img.navbar-logo {
     height: 40px; /* **INI PENTING: Sesuaikan tinggi logo Anda di sini** */
     width: auto; /* Mempertahankan rasio aspek agar tidak pecah */
