@@ -166,31 +166,50 @@
             </div>
         </div>
     </section>
+	
+	<section id="contact" class="section contact-section">
+    <div class="container">
+        <h2>Hubungi Saya</h2>
+        <p class="contact-tagline">Siap memulai proyek Anda atau ingin berdiskusi lebih lanjut? Silakan hubungi saya!</p>
 
-    <section id="contact" class="section contact-section bg-dark">
-        <div class="container">
-            <h2>Hubungi Saya</h2>
-            <p>Siap untuk memulai proyek Anda atau ingin berdiskusi lebih lanjut? Silakan hubungi saya!</p>
-            <div class="contact-content">
-                <form class="contact-form">
-                    <input type="text" placeholder="Nama Anda" required>
-                    <input type="email" placeholder="Email Anda" required>
-                    <input type="text" placeholder="Subjek">
-                    <textarea placeholder="Pesan Anda" rows="5" required></textarea>
-                    <button type="submit" class="btn-primary">Kirim Pesan</button>
-                </form>
-                <div class="contact-info">
-                    <p><i class="fas fa-map-marker-alt"></i> Bandung, Indonesia</p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:emailanda@example.com">emailanda@example.com</a></p>
-                    <p><i class="fas fa-phone"></i> 0821-1507-3857</p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/karinanrdyh" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="contact-content">
+            <div class="contact-form-wrapper">
+				<form action="https://formspree.io/f/mqadazqz" method="POST" class="contact-form">
+					<div class="form-group">
+						<input type="text" name="name" placeholder="Nama Anda" required>
+						<input type="email" name="email" placeholder="Email Anda" required>
+					</div>
+					<div class="form-group">
+						<input type="text" name="subject" placeholder="Subjek" required>
+					</div>
+					<div class="form-group">
+						<textarea name="message" rows="6" placeholder="Pesan Anda" required></textarea>
+					</div>
+					<button type="submit" class="btn-primary">Kirim Pesan</button>
+				</form>
+            </div>
+
+            <div class="contact-info">
+                <div class="location-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info-details">
+                        <h4>Lokasi</h4>
+                        <p>Bandung, Indonesia</p>
                     </div>
                 </div>
+				<div class="social-icons">
+					<a href="https://wa.me/6282115073857" class="social-icon" target="_blank">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+					<a href="https://www.instagram.com/karinanrdyh" class="social-icon" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
+	
     <footer>
         <div class="container">
             <p>&copy; 2025 karinanrdyh. Hak Cipta Dilindungi.</p>
